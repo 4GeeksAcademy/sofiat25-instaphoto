@@ -1,0 +1,53 @@
+body{
+    background: rgb(246, 246, 247);
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+}
+.post{
+ background: white;
+ margin-top: 10px;
+}
+div.post img {
+    width: 100%;
+}
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child {
+    display: inline-block;
+    width: 18%;
+    color: gray;
+}
+div.post h2, 
+div.post p{
+    padding: 10px;
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 600px;
+    margin: auto;
+}
+.send {
+    float:right;
+    margin: auto;
+}
+.dots {
+    float:right;
+}
+.post-header {
+    display: flex;
+}
+.words {
+    float:inline-start
+}
