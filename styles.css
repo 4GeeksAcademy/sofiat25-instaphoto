@@ -48,6 +48,6 @@ div.post p{
 .post-header {
     display: flex;
 }
-.words {
+.title {
     float:inline-start
 }
